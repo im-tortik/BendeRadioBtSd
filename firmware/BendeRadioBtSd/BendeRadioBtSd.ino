@@ -1,6 +1,7 @@
 #include <Arduino.h>
 #include "pins.h"
 
+// ✅ ЕДИНСТВЕННОЕ ОПРЕДЕЛЕНИЕ SPI (только здесь!)
 SPIClass spiSD(VSPI);
 
 TaskHandle_t core0_handle = NULL;
